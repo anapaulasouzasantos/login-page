@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-width: 100vw;
+    /* min-height: 100vh; */
+    background-image: url(./../assets/sid-balachandran-cUpp1gAEtiU-unsplash.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main .enter-data {
+    background-color: rgba(28, 28, 28, 0.55);
+
+    z-index: 1;
+
+    width: 450px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul {
+    /* background-color: aqua; */
+    width: 225px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li a {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'Montserrat', sans-serif;
+}
