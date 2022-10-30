@@ -1,0 +1,21 @@
+.dados {
+    display: flex;
+    flex-direction: column;
+
+    height: 110px;
+}
+
+.dados div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+
+    margin-top: 8px;
+}
+
+.acess {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}

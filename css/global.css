@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -31,25 +32,103 @@ main .enter-data {
 
     width: 450px;
     height: 550px;
+    padding: 20px 50px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
 }
 
 nav ul {
-    /* background-color: aqua; */
     width: 225px;
     height: 50px;
-    margin-top: 12px;
-    margin-left: 15px;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 ul li a {
     color: rgba(255, 255, 255, 0.70);
-    font-family: 'Montserrat', sans-serif;
 }
+
+span {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+input {
+    all: unset;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.70);
+}
+
+button {
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+
+    color: rgba(255, 255, 255, 0.70);
+
+    cursor: pointer;
+}
+
+.btn-login {
+    background: linear-gradient(271deg, #26b691, #1478b0, #8c3db9, #c51bc6);
+    background-size: 800% 800%;
+
+    -webkit-animation: variar 5s ease infinite;
+    -moz-animation: variar 5s ease infinite;
+    animation: variar 5s ease infinite;
+}
+
+@-webkit-keyframes variar {
+    0% {
+        background-position: 79% 0%
+    }
+
+    50% {
+        background-position: 22% 100%
+    }
+
+    100% {
+        background-position: 79% 0%
+    }
+}
+
+@-moz-keyframes variar {
+    0% {
+        background-position: 79% 0%
+    }
+
+    50% {
+        background-position: 22% 100%
+    }
+
+    100% {
+        background-position: 79% 0%
+    }
+}
+
+@keyframes variar {
+    0% {
+        background-position: 79% 0%
+    }
+
+    50% {
+        background-position: 22% 100%
+    }
+
+    100% {
+        background-position: 79% 0%
+    }
+}
+
+/* .btn-login {
+    background-image: linear-gradient(to bottom right, #00a2e8, rgb(0, 128, 85));
+
+    height: 40px;
+
+} */
