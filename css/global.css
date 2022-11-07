@@ -68,6 +68,8 @@ span {
 input {
     all: unset;
     border-bottom: 1px solid rgba(255, 255, 255, 0.70);
+
+    color: rgba(255, 255, 255, 0.70);
 }
 
 button {
